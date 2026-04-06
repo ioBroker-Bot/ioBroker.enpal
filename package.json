@@ -1,6 +1,6 @@
 {
   "name": "iobroker.enpal",
-  "version": "0.1.10",
+  "version": "0.2.0",
   "description": "ENPAL InfluxDB",
   "author": {
     "name": "skvarel",

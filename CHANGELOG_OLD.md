@@ -1,4 +1,7 @@
 # Older changes
+## 0.1.6 (2026-04-01)
+- (skvarel) Added configurable option to show/hide InfluxDB sync info messages
+
 ## 0.1.5 (2026-04-01)
 - (skvarel) Changed interval configuration from milliseconds to seconds for better usability
 

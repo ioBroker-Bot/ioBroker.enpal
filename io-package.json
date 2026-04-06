@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "enpal",
-    "version": "0.1.10",
+    "version": "0.2.0",
     "news": {
+      "0.2.0": {
+        "en": "Updated minimum Node.js version requirement to >=22\nNormalize unit display: \"Percent\" is now shown as \"%\"",
+        "de": "Aktualisierte Mindestanforderungen an Node.js-Versionen an >=22\nNormalisieren Einheitsanzeige: \"Prozent\" wird nun als \"%\" angezeigt",
+        "ru": "Минимальное требование Node.js для версии >=22\nНормализовать единичный дисплей: «Процент» теперь отображается как «%»",
+        "pt": "Requisitos de versão Node.js mínimos atualizados para >=22\nNormalizar a exibição da unidade: \"Percentagem\" é agora mostrado como \"%s\"",
+        "nl": "Voor de toepassing van deze onderverdeling wordt verstaan onder:\nEenheidsweergave normaliseren: \"Percent\" wordt nu weergegeven als \"%\"",
+        "fr": "Mise à jour de l'exigence minimale de la version Node.js à >=22\nNormaliser l'affichage de l'unité : \"Pourcentage\" est maintenant affiché comme \"%\"",
+        "it": "Requisiti di versione minima Node.js aggiornati a >=22\nNormalizzare il display dell'unità: \"Percent\" è ora indicato come \"%\"",
+        "es": "Mínimo Actualizado Node.js versión requerimiento para √22\nNormalizar la pantalla de la unidad: \"Percent\" ahora se muestra como \"%\"",
+        "pl": "Aktualizacja minimalnego wymogu wersji Node.js do > = 22\nWyświetlacz jednostki normalizującej: \"Procent\" jest teraz pokazywany jako \"%\"",
+        "uk": "Оновлена мінімальна вимога версії Node.js до >=22\nНормалізація дисплея блока: \"Попередня\" тепер відображається як \"%\"",
+        "zh-cn": "将最小节点\n规范化单位显示 : “ percent” 现在显示为 “%% ”"
+      },
       "0.1.10": {
         "en": "Fix prettier formatting in main.js",
         "de": "Reparieren prettier Formatierung in main.js",
@@ -80,19 +93,6 @@
         "pl": "Zmieniona konfiguracja interwałów z milisekund na sekundy dla lepszej użyteczności",
         "uk": "Зміна конфігурації інтервалу від мілісекундів до секунд для кращої зручності",
         "zh-cn": "将间隔配置从毫秒更改为秒, 以提高可用性"
-      },
-      "0.1.4": {
-        "en": "Add 7-day cooldown for npm dependencies in Dependabot config (security improvement)",
-        "de": "7-Tage-Abklingzeit für npm-Abhängigkeiten in Dependabot config (Sicherheitsverbesserung)",
-        "ru": "Добавить 7-дневное охлаждение для зависимостей npm в конфигурации Dependabot (улучшение безопасности)",
-        "pt": "Adicione resfriamento de 7 dias para dependências do npm na configuração de Dependabot (melhoria de segurança)",
-        "nl": "7-daagse cooldown toevoegen voor npm afhankelijkheden in Dependabot configuratie (veiligheidsverbetering)",
-        "fr": "Ajouter 7 jours de refroidissement pour les dépendances npm dans la configuration de Dependabot (amélioration de la sécurité)",
-        "it": "Aggiungi 7 giorni di raffreddamento per le dipendenze npm in Dependabot config (miglioramento della sicurezza)",
-        "es": "Añadir refrigeración de 7 días para las dependencias de npm en el config de Dependabot (mejoramiento de seguridad)",
-        "pl": "Dodaj 7-dniowe ochłodzenie dla zależności npm w konfiguracji Dependabot (poprawa bezpieczeństwa)",
-        "uk": "Додавання 7-денного охолодження для npm залежностей в налаштуваннях залежностей",
-        "zh-cn": "对依赖配置中的 npm 依赖性增加7天冷却( 安全性改进)"
       }
     },
     "titleLang": {
