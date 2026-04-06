@@ -148,13 +148,20 @@ class Enpal extends utils.Adapter {
 	async createOrUpdateState(id, value, unit) {
 		await this.ensureParentChannels(id);
 		const type = typeof value === 'number' ? 'number' : 'string';
+
+		// Normalize unit: convert "Percent" to "%", hide "None"
+		let displayUnit = '';
+		if (unit && unit !== 'None') {
+			displayUnit = unit === 'Percent' ? '%' : unit;
+		}
+
 		await this.setObjectNotExistsAsync(id, {
 			type: 'state',
 			common: {
 				name: id.split('.').pop(),
 				type,
 				role: type === 'number' ? 'value' : 'text',
-				unit: unit && unit !== 'None' ? unit : '',
+				unit: displayUnit,
 				read: true,
 				write: false,
 			},

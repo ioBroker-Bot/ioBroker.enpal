@@ -72,6 +72,13 @@ Typical examples (depending on your inverter and Enpal configuration):
 - No external servers are contacted
 
 ## Changelog
+<!--
+	### **WORK IN PROGRESS**
+-->
+### **WORK IN PROGRESS**
+- (skvarel) Updated minimum Node.js version requirement to >=22
+- (skvarel) Normalize unit display: "Percent" is now shown as "%"
+
 ### 0.1.10 (2026-04-04)
 - (skvarel) Fix prettier formatting in main.js
 

@@ -164,7 +164,8 @@
     "influx_token": "",
     "influx_org": "",
     "influx_bucket": "",
-    "interval_s": 60
+    "interval_s": 60,
+    "show_sync_info": false
   },
   "protectedNative": [
     "influx_token"
