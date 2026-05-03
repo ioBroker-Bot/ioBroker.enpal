@@ -91,6 +91,8 @@ Typical examples (depending on your inverter and Enpal configuration):
 ### 0.1.7 (2026-04-04)
 - (skvarel) Title and description edited
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 MIT License
 
