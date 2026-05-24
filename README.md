@@ -1,6 +1,6 @@
 ![Logo](admin/enpal_logo.svg)
 
-## ioBroker adapter for Enpal Solar
+# ioBroker adapter for Enpal Solar
 
 ![Number of Installations](https://iobroker.live/badges/enpal-installed.svg)
 ![Current version in stable repository](https://iobroker.live/badges/enpal-stable.svg)
