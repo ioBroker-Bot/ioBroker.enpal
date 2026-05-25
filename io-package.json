@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "enpal",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "news": {
+      "0.2.1": {
+        "en": "Added link to CHANGELOG_OLD.md at readme \nUpdated @alcalzone/release-script and related plugins",
+        "de": "Link zu CHANGELOG OLD.md bei readme hinzugefügt\nAktualisierte @alcalzone/Release-script und verwandte Plugins",
+        "ru": "Добавлена ссылка на CHANGELOG OLD.md в readme\nОбновленный @alcalzone/releasescript и связанные плагины",
+        "pt": "Adicionado link para CHANGELOG OLD.md at readme\nAtualizado @ alcalzone/release-script e plug-ins relacionados",
+        "nl": "Link toegevoegd aan VERANDERINGLOG OLD.md bij readme\nBijgewerkt @alcalzone/release-script en bijbehorende plugins",
+        "fr": "Ajout d'un lien vers CHANGELOG OLD.md à readme\nMise à jour @alcalzone/release-script et plugins associés",
+        "it": "Aggiunto il link a CHANGELOG OLD.md a readme\nAggiornato @alcalzone/release-script e relativi plugin",
+        "es": "Añadido el enlace a CHANGELOG OLD.md en readme\nActualizado @alcalzone/release-script y plugins relacionados",
+        "pl": "Dodano link do CHANGELOG _ OLD.md w readme\nAktualizacja @ alcalzone / release- script i powiązanych wtyczek",
+        "uk": "Додано посилання на CHANGELOG OLD.md на readme\nОновлено @alcalzone/випуск-script і пов'язані плагіни",
+        "zh-cn": "在readme 上添加到 ChangeGELOG OLD.md 的链接\n更新了 @alcalzone/ release-script 及相关插件"
+      },
       "0.2.0": {
         "en": "Updated minimum Node.js version requirement to >=22\nNormalize unit display: \"Percent\" is now shown as \"%\"",
         "de": "Aktualisierte Mindestanforderungen an Node.js-Versionen an >=22\nNormalisieren Einheitsanzeige: \"Prozent\" wird nun als \"%\" angezeigt",
